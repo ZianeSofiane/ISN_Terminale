@@ -1,0 +1,150 @@
+body 
+{	
+background-color:grey;
+}
+
+.fenetre
+{	position: absolute;
+	left: 5px;
+	top: 5px;
+	height: 25px;
+	width: 380px; 
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	font-family: Arial; 
+	font-size: 16px;
+	color: black; 
+	text-align: center;
+	z-index:2;
+}
+
+.quel 
+ {	position:absolute;
+	left:5px;
+	top:85px; 
+	z-index:2;
+}
+ 
+.mode 
+ {	position: absolute;
+	left: 290px;
+	top: 320px;
+	z-index:10;
+} 
+ 
+.jouer  
+{	position:absolute;
+	left:300px; top:45px;
+	z-index:2;
+}
+
+.retour  
+{	position:absolute;
+	left:5px;
+	top:45px;
+	z-index:2;
+}
+
+.oui
+{	position:absolute; 
+	left:105px; 
+	top:45px;
+	height: 22px;
+	width:80px;
+	background-color: green;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	color:#660033;
+	text-align:center;
+	z-index:2;
+}
+
+.non
+{	position:absolute;
+	left:205px; 
+	top:45px; 
+	height: 22px;
+	width:80px;
+	background-color: red;
+	border-color: black; 
+	border-style: solid;
+	border-width: 1px; 
+	color:#660033; 
+	text-align:center;
+	z-index:2;
+} 
+
+.carte 
+{	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.pp1 {position:absolute; left:720px; top:180px;}
+.pp2 {position:absolute; left:174px; top:490px;}
+.pp3 {position:absolute; left:424px; top:397px;}
+.pp4 {position:absolute; left:475px; top:247px;}
+.pp5 {position:absolute; left:3px; top:192px;}
+.pp6 {position:absolute; left:302px; top:200px;}
+.pp7 {position:absolute; left:506px; top:88px;}
+.pp8 {position:absolute; left:766px; top:645px;}
+.pp9 {position:absolute; left:627px; top:280px;}
+.pp10 {position:absolute; left:394px; top:173px;}
+.pp11 {position:absolute; left:394px; top:563px;}
+.pp12 {position:absolute; left:335px; top:426px;}
+.pp13 {position:absolute; left:599px; top:137px;}
+.pp14 {position:absolute; left:262px; top:549px;}
+.pp15 {position:absolute; left:398px; top:4px;}
+.pp16 {position:absolute; left:196px; top:118px;} 
+.pp17 {position:absolute; left:312px; top:91px;}
+.pp18 {position:absolute; left:144px; top:228px;}
+.pp19 {position:absolute; left:393px; top:68px;}
+.pp20 {position:absolute; left:199px; top:359px;}
+.pp21 {position:absolute; left:563px; top:536px;}
+.pp22 {position:absolute; left:527px; top:412px;}
+.zs1 {position:absolute; left:725px; top:205px;}
+.zs2 {position:absolute; left:215px; top:555px;}
+.zs3 {position:absolute; left:447px; top:452px;}
+.zs4 {position:absolute; left:505px; top:305px;}
+.zs5 {position:absolute; left:85px; top:215px;}
+.zs6 {position:absolute; left:362px; top:280px;}
+.zs7 {position:absolute; left:506px; top:178px;}
+.zs8 {position:absolute; left:755px; top:680px;}
+.zs9 {position:absolute; left:635px; top:315px;}
+.zs10 {position:absolute; left:403px; top:185px;}
+.zs11 {position:absolute; left:465px; top:630px;}
+.zs12 {position:absolute; left:345px; top:446px;}
+.zs13 {position:absolute; left:615px; top:170px;}
+.zs14 {position:absolute; left:342px; top:615px;}
+.zs15 {position:absolute; left:410px; top:5px;}
+.zs16 {position:absolute; left:215px; top:155px;}
+.zs17 {position:absolute; left:317px; top:98px;}
+.zs18 {position:absolute; left:205px; top:280px;}
+.zs19 {position:absolute; left:420px; top:95px;}
+.zs20 {position:absolute; left:230px; top:410px;}
+.zs21 {position:absolute; left:640px; top:610px;}
+.zs22 {position:absolute; left:585px; top:460px;}
+.vf1 {position:absolute; left:735px; top:230px;}
+.vf2 {position:absolute; left:255px; top:585px;} 
+.vf3 {position:absolute; left:477px; top:472px;}
+.vf4 {position:absolute; left:545px; top:330px;}
+.vf5 {position:absolute; left:125px; top:240px;}
+.vf6 {position:absolute; left:392px; top:300px;}
+.vf7 {position:absolute; left:546px; top:188px;}
+.vf8 {position:absolute; left:790px; top:700px;}
+.vf9 {position:absolute; left:667px; top:335px;}
+.vf10 {position:absolute; left:443px; top:205px;}
+.vf11 {position:absolute; left:505px; top:663px;}
+.vf12 {position:absolute; left:385px; top:466px;}
+.vf13 {position:absolute; left:660px; top:195px;}
+.vf14 {position:absolute; left:382px; top:640px;}
+.vf15 {position:absolute; left:450px; top:45px;}
+.vf16 {position:absolute; left:260px; top:180px;}
+.vf17 {position:absolute; left:355px; top:140px;} 
+.vf18 {position:absolute; left:244px; top:308px;} 
+.vf19 {position:absolute; left:450px; top:120px;}
+.vf20 {position:absolute; left:275px; top:440px;}
+.vf21 {position:absolute; left:680px; top:635px;}
+.vf22 {position:absolute; left:625px; top:490px;}

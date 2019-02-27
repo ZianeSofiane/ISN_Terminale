@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Le jeu des pays d'Europe</title>
+<link rel="stylesheet" type="text/css" href="styljeu2.css">
+<script type="text/javascript" src="bulle.js"></script>
+
+</head>
+<body>
+<div class="carte" id="carte"><img src="c2.png"></div> <!--div créé une division, class="carte" est le nom qui sera utiliser dans le css, l'id sera utiliser dans la js pour les fonctions avec getelementbyid -->
+<div class="fenet" id="fenet">Cliquez sur Jouer</div>  <!-- fenètre -->
+<div class="retour" id="ret"><a href="../Accueil.html"><img src="Retour2.png"></a></div> <!-- bouton retour-->
+<div class="fenoui" id="oui">Oui : 0</div> <!--compteur de bonnes rep-->
+<div class="fenon" id="non">Non : 0</div> <!--compteur de mauvaises rep-->
+<div class="pourcent" id="pct">%</div> <!--score en pourcentage-->
+<div class="jouer" id="jouer"><img src="jouer.png" onclick="param()"></div> <!--bouton jouer , onclick permet de déclencher la fonction param() lorsque l'on clique sur le bouton jouer-->
+
+<div class="pp1" id="pp1"></div> <!-- emplacement des images des pays-->
+<div class="pp2" id="pp2"></div>
+<div class="pp3" id="pp3"></div>
+<div class="pp4" id="pp4"></div>
+<div class="pp5" id="pp5"></div>
+<div class="pp6" id="pp6"></div>
+<div class="pp7" id="pp7"></div>
+<div class="pp8" id="pp8"></div>
+<div class="pp9" id="pp9"></div>
+<div class="pp10" id="pp10"></div>
+<div class="pp11" id="pp11"></div>
+<div class="pp12" id="pp12"></div>
+<div class="pp13" id="pp13"></div>
+<div class="pp14" id="pp14"></div>
+<div class="pp15" id="pp15"></div>
+<div class="pp16" id="pp16"></div>
+<div class="pp17" id="pp17"></div>
+<div class="pp18" id="pp18"></div>
+<div class="pp19" id="pp19"></div>
+<div class="pp20" id="pp20"></div>
+<div class="pp21" id="pp21"></div>
+<div class="pp22" id="pp22"></div>
+<div class="pp23" id="pp23"></div>
+<div class="pp24" id="pp24"></div>
+<div class="pp25" id="pp25"></div>
+<div class="pp26" id="pp26"></div>
+<div class="pp27" id="pp27"></div>
+<div class="pp28" id="pp28"></div>
+<div class="pp29" id="pp29"></div>
+<div class="pp30" id="pp30"></div>
+<div class="pp31" id="pp31"></div>	
+<div class="pp32" id="pp32"></div>
+<div class="pp33" id="pp33"></div>
+<div class="pp34" id="pp34"></div>
+<div class="pp35" id="pp35"></div>
+<div class="pp36" id="pp36"></div>
+<div class="pp37" id="pp37"></div>
+<div class="pp38" id="pp38"></div>
+<div class="pp39" id="pp39"></div>
+<div class="pp40" id="pp40"></div>
+<div class="pp41" id="pp41"></div>
+<div class="pp42" id="pp42"></div>
+<div class="pp43" id="pp43"></div>
+<div class="pp44" id="pp44"></div>
+<div class="nc1" id="nc1"></div> <!--capitales-->
+<div class="nc2" id="nc2"></div>
+<div class="nc3" id="nc3"></div>	
+<div class="nc4" id="nc4"></div>
+<div class="nc5" id="nc5"></div>
+<div class="nc6" id="nc6"></div>
+<div class="nc7" id="nc7"></div>
+<div class="nc8" id="nc8"></div>
+<div class="nc9" id="nc9"></div>
+<div class="nc10" id="nc10"></div>
+<div class="nc11" id="nc11"></div>
+<div class="nc12" id="nc12"></div>
+<div class="nc13" id="nc13"></div>
+<div class="nc14" id="nc14"></div>
+<div class="nc15" id="nc15"></div>
+<div class="nc16" id="nc16"></div>
+<div class="nc17" id="nc17"></div>
+<div class="nc18" id="nc18"></div>
+<div class="nc19" id="nc19"></div>
+<div class="nc20" id="nc20"></div>
+<div class="nc21" id="nc21"></div>
+<div class="nc22" id="nc22"></div>
+<div class="nc23" id="nc23"></div>
+<div class="nc24" id="nc24"></div>
+<div class="nc25" id="nc25"></div>
+<div class="nc26" id="nc26"></div>
+<div class="nc27" id="nc27"></div>
+<div class="nc28" id="nc28"></div>
+<div class="nc29" id="nc29"></div>
+<div class="nc30" id="nc30"></div>
+<div class="nc31" id="nc31"></div>
+<div class="nc32" id="nc32"></div>
+<div class="nc33" id="nc33"></div> 
+<div class="nc34" id="nc34"></div> 
+<div class="nc35" id="nc35"></div>
+<div class="nc36" id="nc36"></div>
+<div class="nc37" id="nc37"></div>
+<div class="nc38" id="nc38"></div>
+<div class="nc39" id="nc39"></div>
+<div class="nc40" id="nc40"></div>
+<div class="nc41" id="nc41"></div>
+<div class="nc42" id="nc42"></div>
+<div class="nc43" id="nc43"></div>
+<div class="nc44" id="nc44"></div>
+
+<div class="pc1" id="pc1"></div> <!--points des capitales-->
+<div class="pc2" id="pc2"></div>
+<div class="pc3" id="pc3"></div>
+<div class="pc4" id="pc4"></div>
+<div class="pc5" id="pc5"></div>
+<div class="pc6" id="pc6"></div>
+<div class="pc7" id="pc7"></div>
+<div class="pc8" id="pc8"></div>
+<div class="pc9" id="pc9"></div>
+<div class="pc10" id="pc10"></div>
+<div class="pc11" id="pc11"></div>
+<div class="pc12" id="pc12"></div>
+<div class="pc13" id="pc13"></div>
+<div class="pc14" id="pc14"></div>
+<div class="pc15" id="pc15"></div>
+<div class="pc16" id="pc16"></div>
+<div class="pc17" id="pc17"></div>
+<div class="pc18" id="pc18"></div>
+<div class="pc19" id="pc19"></div>
+<div class="pc20" id="pc20"></div>
+<div class="pc21" id="pc21"></div>
+<div class="pc22" id="pc22"></div>
+<div class="pc23" id="pc23"></div>
+<div class="pc24" id="pc24"></div>
+<div class="pc25" id="pc25"></div>
+<div class="pc26" id="pc26"></div>
+<div class="pc27" id="pc27"></div>
+<div class="pc28" id="pc28"></div>
+<div class="pc29" id="pc29"></div>
+<div class="pc30" id="pc30"></div>
+<div class="pc31" id="pc31"></div>	
+<div class="pc32" id="pc32"></div>
+<div class="pc33" id="pc33"></div>
+<div class="pc34" id="pc34"></div>
+<div class="pc35" id="pc35"></div>
+<div class="pc36" id="pc36"></div>
+<div class="pc37" id="pc37"></div>
+<div class="pc38" id="pc38"></div>
+<div class="pc39" id="pc39"></div>
+<div class="pc40" id="pc40"></div>
+<div class="pc41" id="pc41"></div>
+<div class="pc42" id="pc42"></div>
+<div class="pc43" id="pc43"></div>
+<div class="pc44" id="pc44"></div>
+
+<div class="np1" id="np1"></div> <!--nom des pays-->
+<div class="np2" id="np2"></div>
+<div class="np3" id="np3"></div>
+<div class="np4" id="np4"></div>
+<div class="np5" id="np5"></div>	
+<div class="np6" id="np6"></div>	
+<div class="np7" id="np7"></div>	
+<div class="np8" id="np8"></div>
+<div class="np9" id="np9"></div>
+<div class="np10" id="np10"></div>
+<div class="np11" id="np11"></div>
+<div class="np12" id="np12"></div>
+<div class="np13" id="np13"></div>
+<div class="np14" id="np14"></div>
+<div class="np15" id="np15"></div>
+<div class="np16" id="np16"></div>
+<div class="np17" id="np17"></div>
+<div class="np18" id="np18"></div>
+<div class="np19" id="np19"></div>
+<div class="np20" id="np20"></div>
+<div class="np21" id="np21"></div>
+<div class="np22" id="np22"></div>
+<div class="np23" id="np23"></div>
+<div class="np24" id="np24"></div>
+<div class="np25" id="np25"></div>
+<div class="np26" id="np26"></div>
+<div class="np27" id="np27"></div>
+<div class="np28" id="np28"></div>
+<div class="np29" id="np29"></div>
+<div class="np30" id="np30"></div> 
+<div class="np31" id="np31"></div>
+<div class="np32" id="np32"></div>
+<div class="np33" id="np33"></div>
+<div class="np34" id="np34"></div>
+<div class="np35" id="np35"></div>
+<div class="np36" id="np36"></div>
+<div class="np37" id="np37"></div>
+<div class="np38" id="np38"></div>
+<div class="np39" id="np39"></div>
+<div class="np40" id="np40"></div>
+<div class="np41" id="np41"></div>
+<div class="np42" id="np42"></div>
+<div class="np43" id="np43"></div>
+<div class="np44" id="np44"></div>
+<div class="rd38" id="rd38"></div> <!--ronds-->
+<div class="rd39" id="rd39"></div>
+<div class="rd40" id="rd40"></div>
+<div class="rd41" id="rd41"></div>
+<div class="rd42" id="rd42"></div>
+<div class="rd43" id="rd43"></div>
+<div class="rd44" id="rd44"></div>
+
+<div class="cc1" id="cc1"></div> <!--images transparentes correspondant à la zone clicable de chaque pays-->
+<div class="cc2" id="cc2"></div>
+<div class="cc3" id="cc3"></div>
+<div class="cc4" id="cc4"></div>
+<div class="cc5" id="cc5"></div>
+<div class="cc6" id="cc6"></div>
+<div class="cc7" id="cc7"></div>
+<div class="cc8" id="cc8"></div>
+<div class="cc9" id="cc9"></div>
+<div class="cc10" id="cc10"></div>
+<div class="cc11" id="cc11"></div>
+<div class="cc12" id="cc12"></div>
+<div class="cc13" id="cc13"></div>
+<div class="cc14" id="cc14"></div>
+<div class="cc15" id="cc15"></div>
+<div class="cc16" id="cc16"></div>
+<div class="cc17" id="cc17"></div>
+<div class="cc18" id="cc18"></div>
+<div class="cc19" id="cc19"></div>
+<div class="cc20" id="cc20"></div> 
+<div class="cc21" id="cc21"></div>
+<div class="cc22" id="cc22"></div>
+<div class="cc23" id="cc23"></div>
+<div class="cc24" id="cc24"></div> 
+<div class="cc25" id="cc25"></div>
+<div class="cc26" id="cc26"></div>
+<div class="cc27" id="cc27"></div>
+<div class="cc28" id="cc28"></div>
+<div class="cc29" id="cc29"></div>
+<div class="cc30" id="cc30"></div>
+<div class="cc31" id="cc31"></div>
+<div class="cc32" id="cc32"></div>												  
+<div class="cc33" id="cc33"></div>
+<div class="cc34" id="cc34"></div> 
+<div class="cc35" id="cc35"></div>
+<div class="cc36" id="cc36"></div> 
+<div class="cc37" id="cc37"></div>
+<div class="cc38" id="cc38"></div>
+<div class="cc39" id="cc39"></div>
+<div class="cc40" id="cc40"></div>
+<div class="cc41" id="cc41"></div>
+<div class="cc42" id="cc42"></div>
+<div class="cc43" id="cc43"></div>
+<div class="cc44" id="cc44"></div>
+<div class="cc46" id="cc46"></div>
+<div class="cc45" id="cc45"></div>
+
+</body></html>

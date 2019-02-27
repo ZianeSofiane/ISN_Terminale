@@ -1,0 +1,253 @@
+
+body {
+margin: 0; 
+font-family: arial,verdana;
+font-size: 14px; 
+color: black;
+}
+
+body {background-color:grey;}
+.carte  {position:absolute; left:0px; top:0px; }
+.fenet {position: absolute; left: 700px; top: 610px; height: auto; width: 300px; background-color: white; border-color: black; border-style: solid; border-width: 1px;  color: black; text-align: center; padding-top: 2px;}
+.jouer {position:absolute; left:830px; top:570px; z-index:5;}	
+.fenoui{position:absolute; left:5px; top:200px; height: auto; width:80px; background-color: green;  border-color: black; border-style: solid; border-width: thin; color:black; text-align:center; padding:3px}
+.fenon{position:absolute; left:5px; top:230px; height: auto; width:80px; background-color: red;  border-color: black; border-style: solid; border-width: thin; color:black; text-align:center; padding:3px}
+.pourcent{position:absolute; left:5px; top:260px; height: auto; width:80px; background-color: white;  border-color: black; border-style: solid; border-width: thin; color:black; text-align:center; padding:3px}
+.retour  {position:absolute; left:5px; top:5px; }
+
+.jouer:hover { box-shadow: 0 0 5px 2px white; }
+
+
+.pp1 {position:absolute; left:485px; top:0px; z-index:4;}/*russie*/ 	 
+.pp2 {position:absolute; left:315px; top:4px; z-index:4;}/*norvège*/ 
+.pp3{position:absolute; left:377px; top:56px; z-index:4;}/*suede*/	
+.pp4 {position:absolute; left:139px; top:221px; z-index:4;}/*royaume uni*/
+.pp5 {position:absolute; left:503px; top:499px; z-index:4;}/*roumanie*/
+.pp6 {position:absolute; left:301px; top:364px; z-index:4;}/*allemagne*/
+.pp7 {position:absolute; left:32px; top:553px; z-index:4;}/*espagne*/
+.pp8 {position:absolute; left:141px; top:437px; z-index:4;}/*france*/
+.pp9 {position:absolute; left:412px; top:369px; z-index:4;}/*pologne*/
+.pp10 {position:absolute; left:526px; top:392px; z-index:4;}/*ukraine*/ 
+.pp11 {position:absolute; left:470px; top:26px; z-index:4;}/*finlande*/
+.pp12 {position:absolute; left:502px; top:639px; z-index:4;} /*grece*/
+.pp13 {position:absolute; left:74px; top:40px; z-index:4;}/*islande*/
+.pp14 {position:absolute; left:297px; top:537px; z-index:4;}/*italie*/	
+.pp15 {position:absolute; left:3px; top:584px; z-index:4;}/*portugal*/
+.pp16 {position:absolute; left:532px; top:327px; z-index:4;}/*belarus*/
+.pp17 {position:absolute; left:383px; top:452px; z-index:4;}/*rep tcheque*/
+.pp18 {position:absolute; left:540px; top:585px; z-index:4;}/*bulgarie*/
+.pp19 {position:absolute; left:92px; top:317px; z-index:4;}/*ireland*/
+.pp20 {position:absolute; left:443px; top:501px; z-index:4;}/*hongrie*/
+.pp21 {position:absolute; left:502px; top:257px; z-index:4;}/*estonie*/
+.pp22 {position:absolute; left:495px; top:292px; z-index:4;}/*lettonie*/
+.pp23 {position:absolute; left:497px; top:328px; z-index:4;}/*lithuanie*/
+.pp24 {position:absolute; left:339px; top:306px; z-index:4;}/*danemark*/
+.pp25 {position:absolute; left:270px; top:391px; z-index:4;}/*pays bas*/
+.pp26 {position:absolute; left:450px; top:482px; z-index:4;}/*slovaquie*/
+.pp27 {position:absolute; left:593px; top:491px; z-index:4;}/*moldavie*/
+.pp28 {position:absolute; left:345px; top:496px; z-index:4;}/*autriche*/
+.pp29 {position:absolute; left:288px; top:518px; z-index:4;}/*suisse*/
+.pp30 {position:absolute; left:483px; top:555px; z-index:4;}/*serbie*/
+.pp31 {position:absolute; left:435px; top:578px; z-index:4;}/*bosnie herzegovine*/
+.pp32 {position:absolute; left:514px; top:635px; z-index:4;}/*macedoine*/
+.pp33 {position:absolute; left:494px; top:633px; z-index:4;}/*albanie*/ 
+.pp34 {position:absolute; left:255px; top:433px; z-index:4;}/*belgique*/ 
+.pp35 {position:absolute; left:479px; top:612px; z-index:4;}/*montenegro*/ 
+.pp36 {position:absolute; left:401px; top:550px; z-index:4;}/*croatie*/ 
+.pp37 {position:absolute; left:399px; top:540px; z-index:4;}/*slovenie*/  
+.pp38 {position:absolute; left:295px; top:464px; z-index:4;}/*luxembourg*/ 
+.pp39 {position:absolute; left:343px; top:529px; z-index:4;}/*lichtenstein*/  
+.pp40 {position:absolute; left:383px; top:605px; z-index:4;}/*saint marin*/ 
+.pp41 {position:absolute; left:206px; top:614px; z-index:4;}/*andorre*/ 
+.pp42 {position:absolute; left:382px; top:649px; z-index:4;}/*vatican*/
+.pp43 {position:absolute; left:301px; top:602px; z-index:4;}/*monaco*/ 
+.pp44 {position:absolute; left:409px; top:779px; z-index:4;}/*malte*/  
+
+.np1 {position:absolute; left:750px; top:250px; z-index:5;}	/*nom des pays*/
+.np2 {position:absolute; left:340px; top:234px; z-index:5;}
+.np3{position:absolute; left:405px; top:250px; z-index:5;}
+.np4 {position:absolute; left:165px; top:386px; z-index:5;}
+.np5{position:absolute; left:539px; top:548px; z-index:5;}
+.np6 {position:absolute; left:330px; top:435px; z-index:5;}
+.np7 {position:absolute; left:85px; top:635px; z-index:5;}
+.np8 {position:absolute; left:220px; top:515px; z-index:5;}
+.np9 {position:absolute; left:452px; top:415px; z-index:5;}
+.np10 {position:absolute; left:600px; top:450px; z-index:5;}
+.np11 {position:absolute; left:512px; top:162px; z-index:5;}
+.np12 {position:absolute; left:519px; top:690px; z-index:5;}
+.np13 {position:absolute; left:100px; top:86px; z-index:5;}
+.np14 {position:absolute; left:330px; top:569px; z-index:5;}
+.np15 {position:absolute; left:5px; top:620px; z-index:5;}
+.np16 {position:absolute; left:560px; top:378px; z-index:5;}
+.np17 {position:absolute; left:402px; top:475px; z-index:5;}
+.np18 {position:absolute; left:560px; top:613px; z-index:5;}
+.np19 {position:absolute; left:112px; top:350px; z-index:5;}
+.np20 {position:absolute; left:464px; top:528px; z-index:5;}
+.np21 {position:absolute; left:513px; top:269px; z-index:5;}
+.np22 {position:absolute; left:520px; top:310px; z-index:5;}
+.np23 {position:absolute; left:507px; top:342px; z-index:5;}
+.np24 {position:absolute; left:330px; top:340px; z-index:5;}
+.np25 {position:absolute; left:260px; top:406px; z-index:5;}
+.np26 {position:absolute; left:464px; top:490px; z-index:5;}
+.np27 {position:absolute; left:613px; top:504px; z-index:5;}
+.np28 {position:absolute; left:390px; top:528px; z-index:5;}
+.np29 {position:absolute; left:300px; top:532px; z-index:6;}
+.np30 {position:absolute; left:499px; top:597px; z-index:5;}
+.np31 {position:absolute; left:444px; top:587px; z-index:5;}
+.np32 {position:absolute; left:517px; top:639px; z-index:5;}
+.np33 {position:absolute; left:492px; top:647px; z-index:5;}
+.np34 {position:absolute; left:244px; top:445px; z-index:5;}
+.np35 {position:absolute; left:452px; top:629px; z-index:5;}
+.np36 {position:absolute; left:434px; top:563px; z-index:5;}
+.np37 {position:absolute; left:400px; top:548px; z-index:5;} 
+.np38 {position:absolute; left:265px; top:480px; z-index:5;}  
+.np39 {position:absolute; left:308px; top:508px; z-index:5;} 
+.np40 {position:absolute; left:341px; top:594px; z-index:5;}
+.np41 {position:absolute; left:180px; top:626px; z-index:5;}
+.np42 {position:absolute; left:329px; top:639px; z-index:5;}
+.np43 {position:absolute; left:246px; top:587px; z-index:5;} 
+.np44 {position:absolute; left:421px; top:776px; z-index:5;}
+ 
+.nc1 {position:absolute; left:692px; top:288px; z-index:5;}	/*capitales*/
+.nc2 {position:absolute; left:360px; top:237px; z-index:5;} 
+.nc3{position:absolute; left:405px; top:250px; z-index:5;}
+.nc4 {position:absolute; left:190px; top:401px; z-index:5;}
+.nc5{position:absolute; left:564px; top:562px; z-index:5;}
+.nc6 {position:absolute; left:352px; top:414px; z-index:5;}
+.nc7 {position:absolute; left:116px; top:635px; z-index:5;}
+.nc8 {position:absolute; left:227px; top:485px; z-index:5;}
+.nc9 {position:absolute; left:470px; top:429px; z-index:5;}
+.nc10 {position:absolute; left:616px; top:444px; z-index:5;} 
+.nc11 {position:absolute; left:495px; top:224px; z-index:5;}
+.nc12 {position:absolute; left:526px; top:720px; z-index:5;}
+.nc13 {position:absolute; left:95px; top:86px; z-index:5;}
+.nc14 {position:absolute; left:393px; top:645px; z-index:5;}
+.nc15 {position:absolute; left:5px; top:628px; z-index:5;}
+.nc16 {position:absolute; left:573px; top:381px; z-index:5;}
+.nc17 {position:absolute; left:402px; top:479px; z-index:5;}
+.nc18 {position:absolute; left:566px; top:617px; z-index:5;}
+.nc19 {position:absolute; left:115px; top:347px; z-index:5;}
+.nc20 {position:absolute; left:456px; top:528px; z-index:5;}
+.nc21 {position:absolute; left:517px; top:270px; z-index:5;}
+.nc22 {position:absolute; left:538px; top:310px; z-index:5;}
+.nc23 {position:absolute; left:512px; top:346px; z-index:5;}
+.nc24 {position:absolute; left:311px; top:340px; z-index:5;}
+.nc25 {position:absolute; left:250px; top:399px; z-index:5;}
+.nc26 {position:absolute; left:462px; top:495px; z-index:5;}
+.nc27 {position:absolute; left:606px; top:500px; z-index:5;}
+.nc28 {position:absolute; left:401px; top:515px; z-index:5;}
+.nc29 {position:absolute; left:305px; top:542px; z-index:5;}
+.nc30 {position:absolute; left:497px; top:593px; z-index:5;} 
+.nc31 {position:absolute; left:442px; top:585px; z-index:5;}
+.nc32 {position:absolute; left:514px; top:650px; z-index:5;}
+.nc33 {position:absolute; left:460px; top:660px; z-index:5;}
+.nc34 {position:absolute; left:239px; top:453px; z-index:5;}
+.nc35 {position:absolute; left:426px; top:626px; z-index:5;} 
+.nc36 {position:absolute; left:451px; top:558px; z-index:5;}
+.nc37 {position:absolute; left:388px; top:540px; z-index:5;} 
+.nc38 {position:absolute; left:265px; top:481px; z-index:5;}
+.nc39 {position:absolute; left:324px; top:508px; z-index:5;}
+.nc40 {position:absolute; left:341px; top:594px; z-index:5;}
+.nc41 {position:absolute; left:103px; top:607px; z-index:5;}
+.nc42 {position:absolute; left:329px; top:639px; z-index:5;}
+.nc43 {position:absolute; left:246px; top:587px; z-index:5;}
+.nc44 {position:absolute; left:421px; top:776px; z-index:5;}
+.rd38 {position:absolute; left:291px; top:463px; z-index:5;}
+.rd39 {position:absolute; left:336px; top:523px; z-index:5;}
+.rd40 {position:absolute; left:375px; top:597px; z-index:5;}
+.rd41 {position:absolute; left:199px; top:608px; z-index:5;}
+.rd42 {position:absolute; left:374px; top:639px; z-index:5;}
+.rd43 {position:absolute; left:293px; top:593px; z-index:5;}
+.rd44 {position:absolute; left:403px; top:773px; z-index:5;}
+
+.pc1 {position:absolute; left:684px; top:282px; z-index:5;}/*position des points des capitales*/
+.pc2 {position:absolute; left:373px; top:243px; z-index:5;} 
+.pc3{position:absolute; left:455px; top:256px; z-index:5;}
+.pc4 {position:absolute; left:222px; top:407px; z-index:5;}
+.pc5{position:absolute; left:589px; top:568px; z-index:5;}
+.pc6 {position:absolute; left:392px; top:408px; z-index:5;}
+.pc7 {position:absolute; left:107px; top:628px; z-index:5;}
+.pc8 {position:absolute; left:242px; top:467px; z-index:5;}
+.pc9 {position:absolute; left:494px; top:410px; z-index:5;}
+.pc10 {position:absolute; left:628px; top:425px; z-index:5;}
+.pc11 {position:absolute; left:522px; top:231px; z-index:5;}
+.pc12 {position:absolute; left:578px; top:716px; z-index:5;}
+.pc13 {position:absolute; left:86px; top:81px; z-index:5;}/
+.pc14 {position:absolute; left:385px; top:639px; z-index:5;}
+.pc15 {position:absolute; left:11px; top:634px; z-index:5;}
+.pc16 {position:absolute; left:589px; top:362px; z-index:5;}
+.pc17 {position:absolute; left:412px; top:461px; z-index:5;}
+.pc18 {position:absolute; left:558px; top:612px; z-index:5;}
+.pc19 {position:absolute; left:148px; top:354px; z-index:5;}
+.pc20 {position:absolute; left:485px; top:510px; z-index:5;} 
+.pc21 {position:absolute; left:536px; top:252px; z-index:5;}
+.pc22 {position:absolute; left:530px; top:307px; z-index:5;}
+.pc23 {position:absolute; left:549px; top:352px; z-index:5;}
+.pc24 {position:absolute; left:390px; top:337px; z-index:5;}
+.pc25 {position:absolute; left:289px; top:405px; z-index:5;}
+.pc26 {position:absolute; left:455px; top:498px; z-index:5;}
+.pc27 {position:absolute; left:624px; top:506px; z-index:5;} 
+.pc28 {position:absolute; left:439px; top:497px; z-index:5;}
+.pc29 {position:absolute; left:314px; top:524px; z-index:5;}
+.pc30 {position:absolute; left:506px; top:574px; z-index:5;}
+.pc31 {position:absolute; left:474px; top:593px; z-index:5;}
+.pc32 {position:absolute; left:531px; top:632px; z-index:5;}
+.pc33 {position:absolute; left:503px; top:650px; z-index:5;}
+.pc34 {position:absolute; left:280px; top:435px; z-index:5;}
+.pc35 {position:absolute; left:489px; top:622px; z-index:5;}
+.pc36 {position:absolute; left:444px; top:552px; z-index:5;}
+.pc37 {position:absolute; left:415px; top:548px; z-index:5;}
+.pc38 {position:absolute; left:298px; top:461px; z-index:5;}
+.pc39 {position:absolute; left:343px; top:519px; z-index:5;}
+.pc40 {position:absolute; left:382px; top:593px; z-index:5;}
+.pc41 {position:absolute; left:206px; top:603px; z-index:5;}
+.pc42 {position:absolute; left:380px; top:635px; z-index:5;}
+.pc43 {position:absolute; left:300px; top:589px; z-index:5;}
+.pc44 {position:absolute; left:410px; top:769px; z-index:5;}
+
+.cc1 {position:absolute; left:635px; top:145px; z-index:10;}	/*images transparentes correspondant à la zone clicable de chaque pays*/
+.cc2 {position:absolute; left:315px; top:205px; z-index:10;}
+.cc3 {position:absolute; left:392px; top:235px; z-index:10;}
+.cc4 {position:absolute; left:165px; top:350px; z-index:10;}
+.cc5{position:absolute; left:537px; top:515px; z-index:10;}
+.cc6 {position:absolute; left:320px; top:405px; z-index:10;}
+.cc7 {position:absolute; left:85px; top:605px; z-index:10;}
+.cc8 {position:absolute; left:205px; top:485px; z-index:10;}
+.cc9 {position:absolute; left:452px; top:385px; z-index:10;}
+.cc10 {position:absolute; left:610px; top:417px; z-index:10;}
+.cc11 {position:absolute; left:498px; top:160px; z-index:10;}
+.cc12 {position:absolute; left:525px; top:675px; z-index:10;}
+.cc13 {position:absolute; left:90px; top:50px; z-index:10;}
+.cc14 {position:absolute; left:334px; top:544px; z-index:10;}
+.cc15 {position:absolute; left:5px; top:615px; z-index:10;}
+.cc16 {position:absolute; left:560px; top:360px; z-index:10;}
+.cc17 {position:absolute; left:392px; top:458px; z-index:10;}
+.cc18 {position:absolute; left:558px; top:600px; z-index:10;}
+.cc19 {position:absolute; left:95px; top:340px; z-index:10;}
+.cc20 {position:absolute; left:457px; top:515px; z-index:10;}
+.cc21 {position:absolute; left:521px; top:244px; z-index:10;}
+.cc22 {position:absolute; left:520px; top:289px; z-index:10;}
+.cc23 {position:absolute; left:510px; top:334px; z-index:10;}
+.cc24 {position:absolute; left:343px; top:320px; z-index:10;}
+.cc25 {position:absolute; left:273px; top:389px; z-index:10;}
+.cc26 {position:absolute; left:460px; top:469px; z-index:10;}
+.cc27 {position:absolute; left:609px; top:501px; z-index:10;}
+.cc28 {position:absolute; left:397px; top:511px; z-index:10;}
+.cc29 {position:absolute; left:293px; top:518px; z-index:10;}
+.cc30 {position:absolute; left:495px; top:582px; z-index:10;}
+.cc31 {position:absolute; left:450px; top:582px; z-index:10;}
+.cc32 {position:absolute; left:517px; top:636px; z-index:10;}
+.cc33 {position:absolute; left:476px; top:647px; z-index:10;}
+.cc34 {position:absolute; left:252px; top:434px; z-index:10;}
+.cc35 {position:absolute; left:482px; top:620px; z-index:12;} 
+.cc36 {position:absolute; left:436px; top:558px; z-index:12;}
+.cc37 {position:absolute; left:406px; top:547px; z-index:12;}
+.cc38 {position:absolute; left:293px; top:462px; z-index:12;}  
+.cc39 {position:absolute; left:335px; top:521px; z-index:12;} 
+.cc40 {position:absolute; left:376px; top:596px; z-index:12;}
+.cc41 {position:absolute; left:198px; top:606px; z-index:12;}
+.cc42 {position:absolute; left:373px; top:638px; z-index:12;} 
+.cc43 {position:absolute; left:290px; top:592px; z-index:12;}
+.cc44 {position:absolute; left:400px; top:772px; z-index:12;}
+.cc45 {position:absolute; left:304px; top:660px; z-index:10;}
+.cc46 {position:absolute; left:413px; top:572px; z-index:12;}

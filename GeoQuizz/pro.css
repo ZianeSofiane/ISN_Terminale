@@ -1,0 +1,99 @@
+body { /*corps*/
+margin : 0 0 30px 0; /*marge*/
+font : 80% tahoma; /* police des caractères et taille*/
+color : grey; /*couleur du texte*/
+line-height : 1.5em;  /*interlinge*/
+background : url(en-tête.gif) top center no-repeat; /* fond d'écran image centrée sans répétition*/
+text-align : center; /* texte centré */
+}
+.page-wrapper /* texte gauche*/
+{
+position : relative; /* l'élément est positionné dans sa position normal soit left:20 adds 20 pixels à la position gauche de l'élement*/
+width : 750px; /* largeur de la zone de contenu*/	
+margin : 270px auto 0 auto; /*marge*/	
+background : url(bg_container.gif) bottom left no-repeat; /* image de fond bas gauche*/
+}
+.supporting { /* texte à droite*/
+margin : 0 0 0 405px; /* marge */
+text-align : left; /* centré à gauche*/
+}
+.preamble { /* petite partie gauche (texte) */
+position : absolute; /* positionnement du texte de droite */
+top : 120px; /* hauteur */
+left : 0; /* ecartement bordure gauche */
+width : 170px; /* largeur de la zone de contenu */
+text-align : left; /*text mis centré à gauche */
+}
+.sidebar { /* zone milieu */
+position : absolute; /* position du texte milieu */
+top : 120px; /* ecartement de la bordure haute et le texte */
+left : 205px;/* écartement entre la bordure gauche du texte */
+width : 200px; /* largeur de la zone de contenu */
+text-align : left; /* texte centré gauche */
+}
+
+h1, .explanation h3, .preamble h3, .supporting h3, .sidebar h3  /* nom des partie du html*/
+{
+text-indent : -9999px; /* décallage horizontale, -9999 met le texte hors de l'écran */
+}
+h1 {
+height : 120px; /* permet de spécifier la hauteur d'un élément */
+background : url(bg_h1,0.gif) no-repeat; /* image de fond, pas répétition */
+}
+h3 {
+font-size : 150%; /* taille de l'écriture */
+}
+.explanation h3 { /* texte droite*/
+height : 6em; /* hauteur d'un élément position relative par rapport à la police de caractère */
+background : url(bg_h3_ex.gif) no-repeat; /* image de fond */
+}
+.preamble h3 { 
+height : 230px; /* hauteur d'un élément */
+background : url(bg_h3_preamble.gif) top no-repeat; /* fond d'écran pas de réétiotn */
+}
+.participation h3 { /* participation */
+height : 40px; /* hauteur d'un élément */
+background : url(bg_h3_participation.gif) no-repeat;
+}
+
+h3.select {
+height : 120px;
+background : url(bg_h3_select.gif) no-repeat;
+}
+
+
+a {
+color : red; /* couleur jeu n* */
+text-decoration : none; /* sans décoration */
+}
+a:hover { /* lien survolé par la souris */
+color : blue; /* couleur bleue */
+text-decoration : none;
+}
+
+.selection a { /* */
+font : normal normal 100% tahoma; /* taille du texte centre et police  */
+text-transform : uppercase; /* toutes lettres en capitale */
+display : block; /* saut de ligne de la balise a */
+background : #fff0f0; /* couleur du fond */
+}
+.selection a:hover {
+background : #f3efe0; /* couleur */
+}
+
+.sidebar ul {
+list-style : none; /* abréviation de list-style-image, list-style-type, liste-style-position , respectivement image utilé comme puce devant les élément devant les puces, défénit l'apparence des puces et la position de la puce */
+padding : 0; /* marge intérieur */
+margin-right : 40px; /* marge droite*/
+margin-left : 0.5em;/* marge gauche */
+}
+.sidebar ul li {
+margin : 0.5em 0; /* marge */
+padding : 0.3em 0; /* marge intérieur */
+font :  normal normal 90% tahoma, serif; /* police type d'écriture */
+}
+
+.preamble strong
+{
+color:blue;
+}
